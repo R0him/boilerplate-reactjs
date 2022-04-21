@@ -1,0 +1,19 @@
+.container__home {
+  @apply w-full;
+  @apply flex;
+  @apply flex-col;
+  @apply min-h-screen;
+  @apply overflow-hidden;
+  @apply justify-center;
+  @apply items-center;
+}
+.button__home {
+  @apply bg-orange-500;
+  @apply rounded-lg;
+  @apply py-5 px-5;
+}
+.text__home {
+  @apply bg-amber-500;
+  @apply font-bold;
+  @apply text-2xl;
+}

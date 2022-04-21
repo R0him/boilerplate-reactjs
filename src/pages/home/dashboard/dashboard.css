@@ -1,0 +1,19 @@
+.container__dashboard {
+  @apply w-full;
+  @apply flex;
+  @apply flex-row;
+  @apply min-h-screen;
+  @apply overflow-hidden;
+  @apply justify-center;
+  @apply items-center;
+}
+.button__dashboard {
+  @apply bg-orange-500;
+  @apply rounded-lg;
+  @apply py-5 px-5;
+}
+.text__dashboard {
+  @apply bg-red-500;
+  @apply font-bold;
+  @apply text-2xl;
+}

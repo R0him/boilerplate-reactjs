@@ -44,3 +44,32 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Install
+
+```bash
+1. clone this repo
+2. run: npm install / yarn
+```
+
+## Commands
+
+```bash
+# start development server.
+yarn start
+
+# lint files.
+yarn lint
+
+# lint and fixes files.
+yarn lint:fix
+
+# run jest test.
+yarn test
+
+# format document.
+yarn format
+
+# compile production bundle.
+yarn build
+```
