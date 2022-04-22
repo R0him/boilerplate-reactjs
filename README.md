@@ -73,3 +73,31 @@ yarn format
 # compile production bundle.
 yarn build
 ```
+## Architecture
+
+```text
+src/
+├───assets/               //assets such as images, css, fonts and more.
+│
+├───client/               //contains all the endpoints.
+|      └──services.ts     //contains axios instance.
+|
+├───components/           //universal components.
+│
+├───constans/             //contains all types.
+|
+├───pages/                //pages view.
+│
+├───routes/
+│   |──routes.tsx          //views router config.
+|   └──protect             //protect route 
+│
+├───store/                 //store .
+│   └──app.store.tsx     
+│
+├───utils/                 //contains all reusable function. 
+│
+├───App.tsx
+|
+└───index.tsx
+```
